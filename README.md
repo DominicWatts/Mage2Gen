@@ -2,6 +2,10 @@
 
 [Docker_Hub](https://hub.docker.com/r/domw/mage2gen)
 
+## Dockerhub Autobuild Env Variables
+
+USER
+
 ## Compilation
 
     docker login
@@ -13,6 +17,8 @@
     docker build -t domw/mage2gen:3.5 ./
 
     docker push domw/mage2gen:3.5
+
+    [deprecated ]docker build -t domw/mage2gen:latest --build-arg USER=dominic ./
     
 ## Usage
     
@@ -39,7 +45,7 @@
     Module (Mage2gen/Test) generated to: /usr/src/app
     
 
-## Add model exmaple
+## Add model example
 
     mage2gen
     Package name [Mage2gen]*: 
