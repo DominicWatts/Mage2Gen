@@ -39,7 +39,7 @@
     Module (Mage2gen/Test) generated to: /usr/src/app
     
 
-## Add model exmaple
+## Add model example
 
     mage2gen
     Package name [Mage2gen]*: 
